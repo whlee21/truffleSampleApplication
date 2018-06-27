@@ -30,7 +30,7 @@ public class Image implements Serializable {
     private String imageLocation;
 
     @Min(value = 1)
-    @Column(name = "upvote_count")
+    @Column(name = "upvote_count", length = 10, nullable = false)
     private Integer upvoteCount;
 
     // jhipster-needle-entity-add-field - JHipster will add fields here, do not remove
