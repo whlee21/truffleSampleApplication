@@ -8,7 +8,7 @@ import { Principal } from 'app/core';
 import { PendingTransactionService } from './pending-transaction.service';
 
 @Component({
-    selector: '-pending-transaction',
+    selector: 'jhi-pending-transaction',
     templateUrl: './pending-transaction.component.html'
 })
 export class PendingTransactionComponent implements OnInit, OnDestroy {

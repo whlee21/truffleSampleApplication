@@ -10,7 +10,7 @@ import { IImage } from 'app/shared/model/image.model';
 import { ImageService } from 'app/entities/image';
 
 @Component({
-    selector: '-pending-transaction-update',
+    selector: 'jhi-pending-transaction-update',
     templateUrl: './pending-transaction-update.component.html'
 })
 export class PendingTransactionUpdateComponent implements OnInit {

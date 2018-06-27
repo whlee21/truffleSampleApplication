@@ -8,7 +8,7 @@ import { Principal } from 'app/core';
 import { ImageService } from './image.service';
 
 @Component({
-    selector: '-image',
+    selector: 'jhi-image',
     templateUrl: './image.component.html'
 })
 export class ImageComponent implements OnInit, OnDestroy {

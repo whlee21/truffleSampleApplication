@@ -8,7 +8,7 @@ import { IPendingTransaction } from 'app/shared/model/pending-transaction.model'
 import { PendingTransactionService } from './pending-transaction.service';
 
 @Component({
-    selector: '-pending-transaction-delete-dialog',
+    selector: 'jhi-pending-transaction-delete-dialog',
     templateUrl: './pending-transaction-delete-dialog.component.html'
 })
 export class PendingTransactionDeleteDialogComponent {
@@ -36,7 +36,7 @@ export class PendingTransactionDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-pending-transaction-delete-popup',
+    selector: 'jhi-pending-transaction-delete-popup',
     template: ''
 })
 export class PendingTransactionDeletePopupComponent implements OnInit, OnDestroy {

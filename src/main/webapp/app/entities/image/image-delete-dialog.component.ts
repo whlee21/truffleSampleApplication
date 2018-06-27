@@ -8,7 +8,7 @@ import { IImage } from 'app/shared/model/image.model';
 import { ImageService } from './image.service';
 
 @Component({
-    selector: '-image-delete-dialog',
+    selector: 'jhi-image-delete-dialog',
     templateUrl: './image-delete-dialog.component.html'
 })
 export class ImageDeleteDialogComponent {
@@ -32,7 +32,7 @@ export class ImageDeleteDialogComponent {
 }
 
 @Component({
-    selector: '-image-delete-popup',
+    selector: 'jhi-image-delete-popup',
     template: ''
 })
 export class ImageDeletePopupComponent implements OnInit, OnDestroy {

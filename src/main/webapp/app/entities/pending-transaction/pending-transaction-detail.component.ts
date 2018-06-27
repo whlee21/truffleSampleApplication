@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { IPendingTransaction } from 'app/shared/model/pending-transaction.model';
 
 @Component({
-    selector: '-pending-transaction-detail',
+    selector: 'jhi-pending-transaction-detail',
     templateUrl: './pending-transaction-detail.component.html'
 })
 export class PendingTransactionDetailComponent implements OnInit {

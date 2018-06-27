@@ -7,7 +7,7 @@ import { IImage } from 'app/shared/model/image.model';
 import { ImageService } from './image.service';
 
 @Component({
-    selector: '-image-update',
+    selector: 'jhi-image-update',
     templateUrl: './image-update.component.html'
 })
 export class ImageUpdateComponent implements OnInit {

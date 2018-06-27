@@ -4,7 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { IImage } from 'app/shared/model/image.model';
 
 @Component({
-    selector: '-image-detail',
+    selector: 'jhi-image-detail',
     templateUrl: './image-detail.component.html'
 })
 export class ImageDetailComponent implements OnInit {
