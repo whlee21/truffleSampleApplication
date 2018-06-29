@@ -26,6 +26,9 @@
         "src/main/webapp/app",
         "src/test/javascript/"
     ],
+    "files": [
+        "typings.d.ts"
+    ],
     "exclude": [
         "node_modules"
     ]

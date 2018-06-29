@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
-import Web3 = require('web3');
+import Web3 from 'web3';
 import contract = require('truffle-contract');
 import { Subject } from 'rxjs/Rx';
+// import * as Web3 from "web3";
 const contractABI = require('./erc20abi.json');
 
 declare let window: any;
